@@ -3,7 +3,7 @@ const client = new Discord.Client();
 client.commands = new Discord.Collection();
 const fs = require("fs");
 
-client.login("");
+client.login("Il y a mon Token tkt");
 
 client.on("guildMemberAdd", function(member) {
   let embed = new Discord.RichEmbed()
